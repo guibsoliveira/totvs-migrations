@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-pg",
+    "github.copilot",
+    "github.copilot-chat",
+    "adpyke.vscode-sql-formatter",
+    "mechatroner.rainbow-csv",
+    "dotjoshjohnson.xml",
+    "cweijan.vscode-database-client2"
+  ]
+}

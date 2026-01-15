@@ -1,0 +1,50 @@
+# ===== ARQUIVOS SENSÍVEIS =====
+# Senhas e configurações privadas
+.env
+.env.local
+*password*
+*senha*
+*credentials*
+config.local.json
+
+# ===== EXPORTS =====
+exports/xml/*.xml
+exports/csv/*.csv
+!exports/xml/.gitkeep
+!exports/csv/.gitkeep
+
+# ===== PYTHON =====
+# Cache e ambientes virtuais
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# ===== VSCODE =====
+# Configurações locais
+.vscode/settings.json.local
+.vscode/*.log
+
+# ===== SISTEMA OPERACIONAL =====
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+
+# ===== LOGS =====
+*.log
+logs/
+*.log.*
+
+# ===== TEMPORÁRIOS =====
+*.tmp
+*.temp
+*.swp
+*.bak
+*.old

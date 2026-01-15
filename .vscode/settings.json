@@ -1,0 +1,41 @@
+{
+  "files.associations": {
+    "*.sql": "sql"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  
+  "sqltools.connections": [
+    {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "192.168.0.75",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "Gennera PostgreSQL",
+            "database": "Edf_bd_legado",
+            "username": "postgres",
+            "group": "TOTVS"
+    }
+  ],
+  
+  "sqltools.useNodeRuntime": true,
+  "sqltools.format": {
+    "language": "sql",
+    "indent": "  ",
+    "linesBetweenQueries": 2
+  },
+  
+  "github.copilot.enable": {
+    "*": true,
+    "sql": true,
+    "python": true
+  },
+  
+  "files.exclude": {
+    "**/.git": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  }
+}
